@@ -1,0 +1,12 @@
+
+{
+    "compilerOptions": {
+        "target": "ES6" //can also use "es2016", "es2017", "es2018", "es2019"
+    },
+    /*added to support Intellisense for JS files outside current file*/
+    "include": [
+        "Engine/**/*", //glob pattern e.g. Results/*.txt, ?p?.*
+        "Games/Platformer/**/*",
+        ], 
+    
+}
